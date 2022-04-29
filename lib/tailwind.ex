@@ -275,7 +275,7 @@ defmodule Tailwind do
             "windows-x64.exe"
 
           {{:unix, :darwin}, arch, 64} when arch in ~w(arm aarch64) ->
-            "macos-arm64"
+            "macos-x64"
 
           {{:unix, :darwin}, "x86_64", 64} ->
             "macos-x64"
